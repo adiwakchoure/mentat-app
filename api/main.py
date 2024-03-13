@@ -4,12 +4,12 @@ from dotenv import load_dotenv
 import os
 import sys
 
+load_dotenv()  # take environment variables from .env.
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from routes import router
 from models import Query, UrlRelevance
 
-load_dotenv()  # take environment variables from .env.
 
 import marvin
 marvin.settings.openai.api_key = os.getenv('OPENAI_API_KEY')
