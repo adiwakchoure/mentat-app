@@ -26,4 +26,4 @@ async def exception_handler(request: Request, exc: Exception):
 @app.get("/api/health")
 def read_env():
     result = marvin.classify("no", labels=bool)
-    return {"Status": "WOah! It's working!"}
+    return {"Status": "OK"}
