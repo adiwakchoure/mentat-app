@@ -1,4 +1,4 @@
-```
+
 ███╗   ███╗███████╗███╗   ██╗████████╗ █████╗ ████████╗
 ████╗ ████║██╔════╝████╗  ██║╚══██╔══╝██╔══██╗╚══██╔══╝
 ██╔████╔██║█████╗  ██╔██╗ ██║   ██║   ███████║   ██║   
@@ -6,7 +6,8 @@
 ██║ ╚═╝ ██║███████╗██║ ╚████║   ██║   ██║  ██║   ██║   
 ╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝   ╚═╝   
                                                        
-```
+---
+
 # Mentat: The Market Research Agent
 
 Mentat is an AI-driven market research tool focused on opposition research and competitor analysis. Built with FastAPI, PostgreSQL, AsyncIO, Pydantic, and leveraging AI technologies like OpenAI and Langchain, Mentat provides a user-friendly interface for gathering and analyzing competitive intelligence.
