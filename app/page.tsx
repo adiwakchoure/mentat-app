@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import useSWR, { mutate } from 'swr';
 
-const fetcher = (url: string) => fetch(url).then(res => res.json());
+const fetcher = (...args) => fetch(...args).then((res) => res.json())
 
 export default function Mentat() {
   const { data, error } = useSWR('/api/health', fetcher);
